@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BXAppEngine_Example' do
+  pod 'BXAppEngine', :path => '../'
+
+  target 'BXAppEngine_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
