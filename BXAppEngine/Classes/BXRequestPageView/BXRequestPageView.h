@@ -55,6 +55,7 @@ typedef NS_ENUM(NSInteger, BXPageLoadingStyle) {
 @property (nonatomic, strong) IBOutlet UIImageView * promptImageView;
 @property (nonatomic, strong) IBOutlet UIView<BXPageCustomLoadingViewProtocol> * loadingView;
 @property (nonatomic, strong) IBOutlet UIButton * retryButton;
+- (IBAction)clickedRetryButtonAction:(id)sender;
 
 - (void)initUI;
 - (void)updateRequestPageState:(BXRequestPageState)state;

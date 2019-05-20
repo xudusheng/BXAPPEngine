@@ -102,13 +102,16 @@
     [BXRequestPageView setBgColor:[UIColor whiteColor] forState:BXRequestPageState_GeoBlock];
     [BXRequestPageView setBgColor:[UIColor whiteColor] forState:BXRequestPageState_NoNetwork];
     [BXRequestPageView setBgColor:[UIColor whiteColor] forState:BXRequestPageState_Custom];
-    
-    //自定义loadingView
-    [BXRequestPageView configCustomLoadingViewClassName:NSStringFromClass([BXCustomLoadingView class])];
+
     [BXRequestPageStateHelper ownerPageUserInteractionEnabledWhenLoading:NO];
+
+    //自定义loadingView
+//    [BXRequestPageView configCustomLoadingViewClassName:NSStringFromClass([BXCustomLoadingView class])];
     
     __weak typeof(self)weakSelf = self;
-    self.pageStateHelper = [BXRequestPageStateHelper pageWithStyle:BXRequestPageStyleDefault ownerPage:self.view];
+//    self.pageStateHelper = [BXRequestPageStateHelper pageWithStyle:BXRequestPageStyleDefault ownerPage:self.view];
+    self.pageStateHelper = [BXRequestPageStateHelper pageWithStyle:BXRequestPageStyleCustom ownerPage:self.view customPageNibName:@"BXRequestPageView"];
+
     [self.pageStateHelper setRetryBlock:^(BXRequestPageState state) {
         NSLog(@"YYYYYYYYYY");
         weakSelf.pageStateHelper.state = BXRequestPageState_Loading;
@@ -123,7 +126,7 @@
     [self.pageStateHelper.requestPageView setPromptImage:@"img-error" forState:BXRequestPageState_NoData];
 }
 - (void)hideHUD {
-    self.pageStateHelper.state =BXRequestPageState_NULL;
+    self.pageStateHelper.state = BXRequestPageState_NoData;
 }
 - (IBAction)showHUD:(id)sender {
     self.pageStateHelper.state = BXRequestPageState_Loading;

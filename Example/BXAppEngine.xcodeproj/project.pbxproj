@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C73592229293A900F9E8C2 /* BXRequestPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C73591229293A900F9E8C2 /* BXRequestPageView.xib */; };
 		18EAC4DF229257AA00A90390 /* BXCustomLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAC4DC229257AA00A90390 /* BXCustomLoadingView.m */; };
-		18EAC4E0229257AA00A90390 /* BXCustomLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EAC4DD229257AA00A90390 /* BXCustomLoadingView.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18C73591229293A900F9E8C2 /* BXRequestPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BXRequestPageView.xib; sourceTree = "<group>"; };
 		18EAC4CA229249C500A90390 /* BXAppEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BXAppEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EAC4CC229249C500A90390 /* BXToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BXToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EAC4CE22924E7B00A90390 /* BXAppEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BXAppEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,7 +34,6 @@
 		18EAC4D822924EE600A90390 /* BXAppEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BXAppEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EAC4DA22924EEC00A90390 /* BXToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BXToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EAC4DC229257AA00A90390 /* BXCustomLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXCustomLoadingView.m; sourceTree = "<group>"; };
-		18EAC4DD229257AA00A90390 /* BXCustomLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BXCustomLoadingView.xib; sourceTree = "<group>"; };
 		18EAC4DE229257AA00A90390 /* BXCustomLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXCustomLoadingView.h; sourceTree = "<group>"; };
 		19C2C61EA150A180DDFFE1F1 /* BXAppEngine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BXAppEngine.podspec; path = ../BXAppEngine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1BD76A5D57CB890F6805ADCF /* Pods-BXAppEngine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAppEngine_Example.release.xcconfig"; path = "Target Support Files/Pods-BXAppEngine_Example/Pods-BXAppEngine_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 				6003F5A6195388D20070C39A /* BXViewController.m */,
 				18EAC4DE229257AA00A90390 /* BXCustomLoadingView.h */,
 				18EAC4DC229257AA00A90390 /* BXCustomLoadingView.m */,
-				18EAC4DD229257AA00A90390 /* BXCustomLoadingView.xib */,
+				18C73591229293A900F9E8C2 /* BXRequestPageView.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -225,7 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EAC4E0229257AA00A90390 /* BXCustomLoadingView.xib in Resources */,
+				18C73592229293A900F9E8C2 /* BXRequestPageView.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,

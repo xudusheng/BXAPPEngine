@@ -128,6 +128,7 @@ static NSNumber * configOwnerPageUserInteractionEnabledWhenException = nil;
         UIView * view = [UIView viewFromNibNamed:self.customRequestPageNibName bundle:[NSBundle mainBundle]];
         if ([view isKindOfClass:[BXRequestPageView class]]) {
             requestPageView = (BXRequestPageView *)view;
+            requestPageView.frame = self.ownerPage.bounds;
         }
     }
     

@@ -702,7 +702,7 @@ static NSString * staticCustomLoadingViewClassName = nil;
 
 }
 
-- (void)clickedRetryButtonAction:(id)sender
+- (IBAction)clickedRetryButtonAction:(id)sender
 {
     if ([self.delegate respondsToSelector:@selector(requestPageViewHandleRetryAction)]) {
         [self.delegate requestPageViewHandleRetryAction];
