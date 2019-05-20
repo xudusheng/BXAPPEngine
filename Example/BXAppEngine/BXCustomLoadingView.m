@@ -27,6 +27,9 @@
         self.iconView.image = [UIImage imageNamed:@"ico_refresh_logo"];
 //        self.titleLabel.text = @"图片正在加载中***";
         self.titleLabel.text = nil;
+        
+        self.layer.cornerRadius = 10;
+        self.layer.masksToBounds = YES;
     }
     return self;
 }

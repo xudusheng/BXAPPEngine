@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     
     # s.source_files = 'BXAppEngine/Classes/**/*'
+    s.dependency 'BXToolKit'
     
     s.subspec 'TaskQueue' do |task|
         task.source_files = 'BXAppEngine/Classes/TaskQueue/**/*'

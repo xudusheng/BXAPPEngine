@@ -9,8 +9,6 @@
 #import "BXViewController.h"
 #import "BXTaskQueue.h"
 
-#import "BXUIKitAddition.h"
-
 #import "BXRequestPageStateHelper.h"
 #import "BXCustomLoadingView.h"
 

@@ -1,8 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BXAppEngine" "${PODS_CONFIGURATION_BUILD_DIR}/BXToolKit"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BXAppEngine" "${PODS_ROOT}/Headers/Public/BXToolKit" "${PODS_ROOT}/Headers/Public/BXUIKit"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BXAppEngine" "${PODS_CONFIGURATION_BUILD_DIR}/BXToolKit" "${PODS_CONFIGURATION_BUILD_DIR}/BXUIKit"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BXAppEngine" -isystem "${PODS_ROOT}/Headers/Public/BXToolKit" -isystem "${PODS_ROOT}/Headers/Public/BXUIKit"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"BXAppEngine" -l"BXToolKit" -l"BXUIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BXAppEngine/BXAppEngine.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BXToolKit/BXToolKit.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/BXAppEngine/BXAppEngine.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/BXToolKit/BXToolKit.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/BXAppEngine" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/BXToolKit"
+OTHER_LDFLAGS = $(inherited) -framework "BXAppEngine" -framework "BXToolKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
