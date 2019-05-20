@@ -1,14 +1,14 @@
 PODS:
-  - BXAppEngine (0.0.1):
-    - BXAppEngine/BXRequestPageView (= 0.0.1)
-    - BXAppEngine/TaskQueue (= 0.0.1)
+  - BXAppEngine (0.0.3):
+    - BXAppEngine/BXRequestPageView (= 0.0.3)
+    - BXAppEngine/TaskQueue (= 0.0.3)
     - BXToolKit
-  - BXAppEngine/BXRequestPageView (0.0.1):
-    - BXAppEngine/BXRequestPageView/BXSpinKitView (= 0.0.1)
+  - BXAppEngine/BXRequestPageView (0.0.3):
+    - BXAppEngine/BXRequestPageView/BXSpinKitView (= 0.0.3)
     - BXToolKit
-  - BXAppEngine/BXRequestPageView/BXSpinKitView (0.0.1):
+  - BXAppEngine/BXRequestPageView/BXSpinKitView (0.0.3):
     - BXToolKit
-  - BXAppEngine/TaskQueue (0.0.1):
+  - BXAppEngine/TaskQueue (0.0.3):
     - BXToolKit
   - BXToolKit (0.0.3):
     - BXToolKit/DataTool (= 0.0.3)
@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BXAppEngine: a32ce59139652eb03de34eb5f8af0f5079612bf0
+  BXAppEngine: 0692f1fc7fb76703f3a7a111fb9c4d451ee133d6
   BXToolKit: 115513c388bce2c87dc44ea49dc369e15b2fb92f
 
 PODFILE CHECKSUM: 4f1a49383c1a1f3e3d3a3c419e9e6d9ee381d735

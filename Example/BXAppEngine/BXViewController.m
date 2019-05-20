@@ -106,11 +106,11 @@
     [BXRequestPageStateHelper ownerPageUserInteractionEnabledWhenLoading:NO];
 
     //自定义loadingView
-//    [BXRequestPageView configCustomLoadingViewClassName:NSStringFromClass([BXCustomLoadingView class])];
+    [BXRequestPageView configCustomLoadingViewClassName:NSStringFromClass([BXCustomLoadingView class])];
     
     __weak typeof(self)weakSelf = self;
-//    self.pageStateHelper = [BXRequestPageStateHelper pageWithStyle:BXRequestPageStyleDefault ownerPage:self.view];
-    self.pageStateHelper = [BXRequestPageStateHelper pageWithStyle:BXRequestPageStyleCustom ownerPage:self.view customPageNibName:@"BXRequestPageView"];
+    self.pageStateHelper = [BXRequestPageStateHelper pageWithStyle:BXRequestPageStyleDefault ownerPage:self.view];
+//    self.pageStateHelper = [BXRequestPageStateHelper pageWithStyle:BXRequestPageStyleCustom ownerPage:self.view customPageNibName:@"BXRequestPageView"];
 
     [self.pageStateHelper setRetryBlock:^(BXRequestPageState state) {
         NSLog(@"YYYYYYYYYY");
