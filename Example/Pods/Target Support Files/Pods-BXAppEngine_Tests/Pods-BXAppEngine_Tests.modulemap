@@ -1,0 +1,6 @@
+framework module Pods_BXAppEngine_Tests {
+  umbrella header "Pods-BXAppEngine_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

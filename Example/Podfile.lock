@@ -1,0 +1,49 @@
+PODS:
+  - BXAppEngine (0.1.0):
+    - BXAppEngine/BXRequestPageView (= 0.1.0)
+    - BXAppEngine/TaskQueue (= 0.1.0)
+  - BXAppEngine/BXRequestPageView (0.1.0):
+    - BXAppEngine/BXRequestPageView/BXSpinKitView (= 0.1.0)
+  - BXAppEngine/BXRequestPageView/BXSpinKitView (0.1.0)
+  - BXAppEngine/TaskQueue (0.1.0)
+  - BXToolKit (0.0.3):
+    - BXToolKit/DataTool (= 0.0.3)
+    - BXToolKit/Foundation (= 0.0.3)
+    - BXToolKit/UIKit (= 0.0.3)
+  - BXToolKit/DataTool (0.0.3):
+    - BXToolKit/UIKit
+  - BXToolKit/Foundation (0.0.3)
+  - BXToolKit/UIKit (0.0.3):
+    - BXToolKit/Foundation
+  - BXUIKit (0.0.2):
+    - BXUIKit/AddressPickerView (= 0.0.2)
+    - BXUIKit/BXHUD (= 0.0.2)
+    - BXUIKit/BXMenu (= 0.0.2)
+    - BXUIKit/BXPlaceholderTextView (= 0.0.2)
+  - BXUIKit/AddressPickerView (0.0.2)
+  - BXUIKit/BXHUD (0.0.2)
+  - BXUIKit/BXMenu (0.0.2)
+  - BXUIKit/BXPlaceholderTextView (0.0.2)
+
+DEPENDENCIES:
+  - BXAppEngine (from `../`)
+  - BXToolKit
+  - BXUIKit
+
+SPEC REPOS:
+  https://github.com/xudusheng/Specs.git:
+    - BXToolKit
+    - BXUIKit
+
+EXTERNAL SOURCES:
+  BXAppEngine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BXAppEngine: 92038c4b37abb76d1d674861d44fc07997ee29a2
+  BXToolKit: 115513c388bce2c87dc44ea49dc369e15b2fb92f
+  BXUIKit: e7987f20d555b6ce60ff4c66efe95c1a140fb7f6
+
+PODFILE CHECKSUM: d7fa1f30e2f47764f50e0891dc55745c94db39ed
+
+COCOAPODS: 1.6.1

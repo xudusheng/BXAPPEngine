@@ -1,0 +1,37 @@
+{
+  "name": "BXAppEngine",
+  "version": "0.1.0",
+  "summary": "A short description of BXAppEngine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xudusheng/BXAppEngine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xudusheng": "xudusheng@bisinuolan.com"
+  },
+  "source": {
+    "git": "https://github.com/xudusheng/BXAppEngine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "TaskQueue",
+      "source_files": "BXAppEngine/Classes/TaskQueue/**/*"
+    },
+    {
+      "name": "BXRequestPageView",
+      "source_files": "BXAppEngine/Classes/BXRequestPageView/*",
+      "subspecs": [
+        {
+          "name": "BXSpinKitView",
+          "source_files": "BXAppEngine/Classes/BXRequestPageView/BXSpinKitView/**/*"
+        }
+      ]
+    }
+  ]
+}
