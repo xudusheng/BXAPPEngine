@@ -41,7 +41,7 @@
                     <rect key="frame" x="205" y="354.5" width="31" height="30"/>
                     <state key="normal" title="刷新"/>
                     <connections>
-                        <action selector="clickedRetryButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Shf-Ho-v5g"/>
+                        <action selector="clickedRetryButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="u6L-dZ-2ac"/>
                     </connections>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Juj-1M-byn" customClass="BXCustomLoadingView">
@@ -109,9 +109,8 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="bgImageView" destination="T1W-xU-LN0" id="KmX-Bf-nCz"/>
-                <outlet property="loadingView" destination="Juj-1M-byn" id="Wsc-X9-bFD"/>
+                <outlet property="loadingView" destination="Juj-1M-byn" id="ZtB-FX-D41"/>
                 <outlet property="promptImageView" destination="znI-3W-ijw" id="6ZV-R7-zti"/>
-                <outlet property="retryButton" destination="i2N-5S-0MC" id="9eM-El-2eM"/>
                 <outlet property="subtitleLabel" destination="VIc-sP-syx" id="Goe-W6-9E1"/>
                 <outlet property="titleLabel" destination="XsC-L5-wLi" id="IQd-dC-P0i"/>
             </connections>
