@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'BXAppEngine'
-    s.version          = '0.1.0'
+    s.version          = '0.0.1'
     s.summary          = 'A short description of BXAppEngine.'
     
     # This description is used to generate tags and improve search results.
@@ -31,7 +31,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     
     # s.source_files = 'BXAppEngine/Classes/**/*'
-    # s.dependency 'BXToolKit.h'
     
     s.subspec 'TaskQueue' do |task|
         task.source_files = 'BXAppEngine/Classes/TaskQueue/**/*'
