@@ -8,5 +8,4 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'BXAppEngine_Example' do
   pod 'BXAppEngine', :path => '../'
   pod 'BXToolKit'
-  pod 'RegexKitLite', '~> 4.0'
 end
