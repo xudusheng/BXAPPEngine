@@ -1,0 +1,24 @@
+##Version 7.0727
+
+#Network
+bx.message.offline = The network connection has been disconnected. Please check the network.~
+
+#update
+bx.update.content.force = Discovery of new versions
+bx.update.content = Discover the new version! Is it upgraded?
+bx.update.title = New Version Tips
+bx.update.update = Update immediately
+bx.update.cancel = Maybe Later
+bx.ui.quitapp = Exit
+
+//UI
+bx.ui.cancel = Cancel
+bx.ui.ok = OK
+bx.ui.alert.title = Tips
+bx.ui.web.controller.close = Close
+bx.ui.nofunction = In the upgrade of the function……
+bx.ui.reconnect.title = network error
+bx.ui.reconnect = Retry
+
+bx.home.localization.demo.title = Switch Language
+

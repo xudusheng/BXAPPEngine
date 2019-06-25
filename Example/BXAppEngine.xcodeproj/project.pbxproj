@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1803B63822C0C38900015E86 /* BXSwitchLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1803B63622C0C38900015E86 /* BXSwitchLanguageViewController.m */; };
+		1803B63F22C1AF2100015E86 /* localizable_kro.string in Resources */ = {isa = PBXBuildFile; fileRef = 1803B63D22C1AF2100015E86 /* localizable_kro.string */; };
+		1803B64022C1AF2100015E86 /* localizable_zh.string in Resources */ = {isa = PBXBuildFile; fileRef = 1803B63E22C1AF2100015E86 /* localizable_zh.string */; };
 		18C735942292C51A00F9E8C2 /* BXCustomLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C735932292C51A00F9E8C2 /* BXCustomLoadingView.xib */; };
 		18EAC4DF229257AA00A90390 /* BXCustomLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAC4DC229257AA00A90390 /* BXCustomLoadingView.m */; };
+		18EBE94022B9C76E00240C6D /* BXADeepLinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EBE93822B9C76E00240C6D /* BXADeepLinkManager.m */; };
+		18EBE94122B9C76E00240C6D /* BXAStartupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EBE93A22B9C76E00240C6D /* BXAStartupManager.m */; };
+		18EBE94222B9C76E00240C6D /* BXASettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EBE93C22B9C76E00240C6D /* BXASettingsManager.m */; };
+		18EBE94322B9C76E00240C6D /* localizable_en.string in Resources */ = {isa = PBXBuildFile; fileRef = 18EBE93D22B9C76E00240C6D /* localizable_en.string */; };
+		18EBE94422B9C76E00240C6D /* managerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18EBE93F22B9C76E00240C6D /* managerConfig.plist */; };
+		18EBE94622B9C7C400240C6D /* appConfig.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18EBE94522B9C7C400240C6D /* appConfig.txt */; };
+		18EBE94922B9C87E00240C6D /* BXAConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EBE94822B9C87E00240C6D /* BXAConfigManager.m */; };
+		289CC4FDF9AB17259CCDDB10 /* libPods-BXAppEngine_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDB39E78B4C81697ECC4201 /* libPods-BXAppEngine_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -19,10 +30,13 @@
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E519304929680BAC243CCB24 /* Pods_BXAppEngine_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C250A7AF8A8333FB2A63E37D /* Pods_BXAppEngine_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1803B63622C0C38900015E86 /* BXSwitchLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXSwitchLanguageViewController.m; sourceTree = "<group>"; };
+		1803B63722C0C38900015E86 /* BXSwitchLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXSwitchLanguageViewController.h; sourceTree = "<group>"; };
+		1803B63D22C1AF2100015E86 /* localizable_kro.string */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = localizable_kro.string; sourceTree = "<group>"; };
+		1803B63E22C1AF2100015E86 /* localizable_zh.string */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = localizable_zh.string; sourceTree = "<group>"; };
 		18C735932292C51A00F9E8C2 /* BXCustomLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BXCustomLoadingView.xib; sourceTree = "<group>"; };
 		18EAC4CA229249C500A90390 /* BXAppEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BXAppEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EAC4CC229249C500A90390 /* BXToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BXToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,6 +49,17 @@
 		18EAC4DA22924EEC00A90390 /* BXToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BXToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EAC4DC229257AA00A90390 /* BXCustomLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXCustomLoadingView.m; sourceTree = "<group>"; };
 		18EAC4DE229257AA00A90390 /* BXCustomLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXCustomLoadingView.h; sourceTree = "<group>"; };
+		18EBE93822B9C76E00240C6D /* BXADeepLinkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXADeepLinkManager.m; sourceTree = "<group>"; };
+		18EBE93922B9C76E00240C6D /* BXASettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXASettingsManager.h; sourceTree = "<group>"; };
+		18EBE93A22B9C76E00240C6D /* BXAStartupManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXAStartupManager.m; sourceTree = "<group>"; };
+		18EBE93B22B9C76E00240C6D /* BXADeepLinkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXADeepLinkManager.h; sourceTree = "<group>"; };
+		18EBE93C22B9C76E00240C6D /* BXASettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXASettingsManager.m; sourceTree = "<group>"; };
+		18EBE93D22B9C76E00240C6D /* localizable_en.string */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = localizable_en.string; sourceTree = "<group>"; };
+		18EBE93E22B9C76E00240C6D /* BXAStartupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXAStartupManager.h; sourceTree = "<group>"; };
+		18EBE93F22B9C76E00240C6D /* managerConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = managerConfig.plist; sourceTree = "<group>"; };
+		18EBE94522B9C7C400240C6D /* appConfig.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = appConfig.txt; sourceTree = "<group>"; };
+		18EBE94722B9C87E00240C6D /* BXAConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXAConfigManager.h; sourceTree = "<group>"; };
+		18EBE94822B9C87E00240C6D /* BXAConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXAConfigManager.m; sourceTree = "<group>"; };
 		19C2C61EA150A180DDFFE1F1 /* BXAppEngine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BXAppEngine.podspec; path = ../BXAppEngine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1BD76A5D57CB890F6805ADCF /* Pods-BXAppEngine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAppEngine_Example.release.xcconfig"; path = "Target Support Files/Pods-BXAppEngine_Example/Pods-BXAppEngine_Example.release.xcconfig"; sourceTree = "<group>"; };
 		294687681D1D6CCB70B371BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -57,9 +82,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		906A10EAF2AC4D73AF700A7E /* libPods-BXAppEngine_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BXAppEngine_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C250A7AF8A8333FB2A63E37D /* Pods_BXAppEngine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXAppEngine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3C4E3BDBDD497F88F8F143 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FAAC544CFE31F22A2C9031AD /* Pods-BXAppEngine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAppEngine_Tests.release.xcconfig"; path = "Target Support Files/Pods-BXAppEngine_Tests/Pods-BXAppEngine_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FDDB39E78B4C81697ECC4201 /* libPods-BXAppEngine_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BXAppEngine_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,13 +95,33 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E519304929680BAC243CCB24 /* Pods_BXAppEngine_Example.framework in Frameworks */,
+				289CC4FDF9AB17259CCDDB10 /* libPods-BXAppEngine_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18EBE93722B9C76E00240C6D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				18EBE93E22B9C76E00240C6D /* BXAStartupManager.h */,
+				18EBE93A22B9C76E00240C6D /* BXAStartupManager.m */,
+				18EBE93922B9C76E00240C6D /* BXASettingsManager.h */,
+				18EBE93C22B9C76E00240C6D /* BXASettingsManager.m */,
+				18EBE93B22B9C76E00240C6D /* BXADeepLinkManager.h */,
+				18EBE93822B9C76E00240C6D /* BXADeepLinkManager.m */,
+				18EBE94722B9C87E00240C6D /* BXAConfigManager.h */,
+				18EBE94822B9C87E00240C6D /* BXAConfigManager.m */,
+				18EBE94522B9C7C400240C6D /* appConfig.txt */,
+				18EBE93D22B9C76E00240C6D /* localizable_en.string */,
+				1803B63D22C1AF2100015E86 /* localizable_kro.string */,
+				1803B63E22C1AF2100015E86 /* localizable_zh.string */,
+				18EBE93F22B9C76E00240C6D /* managerConfig.plist */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +158,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				906A10EAF2AC4D73AF700A7E /* libPods-BXAppEngine_Tests.a */,
-				C250A7AF8A8333FB2A63E37D /* Pods_BXAppEngine_Example.framework */,
+				FDDB39E78B4C81697ECC4201 /* libPods-BXAppEngine_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,6 +173,9 @@
 				6003F5A6195388D20070C39A /* BXViewController.m */,
 				18EAC4DE229257AA00A90390 /* BXCustomLoadingView.h */,
 				18EAC4DC229257AA00A90390 /* BXCustomLoadingView.m */,
+				1803B63722C0C38900015E86 /* BXSwitchLanguageViewController.h */,
+				1803B63622C0C38900015E86 /* BXSwitchLanguageViewController.m */,
+				18EBE93722B9C76E00240C6D /* Manager */,
 				18C735932292C51A00F9E8C2 /* BXCustomLoadingView.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -180,7 +228,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				971C4CE3A98783B5F40E46A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +247,16 @@
 				CLASSPREFIX = BX;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = xudusheng;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "BXAppEngine" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -225,10 +282,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EBE94422B9C76E00240C6D /* managerConfig.plist in Resources */,
+				1803B64022C1AF2100015E86 /* localizable_zh.string in Resources */,
+				1803B63F22C1AF2100015E86 /* localizable_kro.string in Resources */,
 				18C735942292C51A00F9E8C2 /* BXCustomLoadingView.xib in Resources */,
+				18EBE94622B9C7C400240C6D /* appConfig.txt in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				18EBE94322B9C76E00240C6D /* localizable_en.string in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,30 +320,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		971C4CE3A98783B5F40E46A3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BXAppEngine_Example/Pods-BXAppEngine_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BXAppEngine/BXAppEngine.framework",
-				"${BUILT_PRODUCTS_DIR}/BXToolKit/BXToolKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BXAppEngine.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BXToolKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BXAppEngine_Example/Pods-BXAppEngine_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -290,7 +328,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* BXAppDelegate.m in Sources */,
+				18EBE94922B9C87E00240C6D /* BXAConfigManager.m in Sources */,
+				18EBE94222B9C76E00240C6D /* BXASettingsManager.m in Sources */,
 				6003F5A7195388D20070C39A /* BXViewController.m in Sources */,
+				18EBE94022B9C76E00240C6D /* BXADeepLinkManager.m in Sources */,
+				18EBE94122B9C76E00240C6D /* BXAStartupManager.m in Sources */,
+				1803B63822C0C38900015E86 /* BXSwitchLanguageViewController.m in Sources */,
 				18EAC4DF229257AA00A90390 /* BXCustomLoadingView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -426,6 +469,8 @@
 			baseConfigurationReference = 5D408F1CC3FBA6084775CA27 /* Pods-BXAppEngine_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BXToolKit\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BXAppEngine\"",
@@ -439,6 +484,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BXToolKit/BXToolKit.framework/Headers\"",
 				);
 				INFOPLIST_FILE = "BXAppEngine/BXAppEngine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -447,6 +493,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +504,8 @@
 			baseConfigurationReference = 1BD76A5D57CB890F6805ADCF /* Pods-BXAppEngine_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BXToolKit\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BXAppEngine\"",
@@ -471,6 +520,7 @@
 					"$(SRCROOT)/**",
 				);
 				INFOPLIST_FILE = "BXAppEngine/BXAppEngine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -479,6 +529,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				WRAPPER_EXTENSION = app;
 			};

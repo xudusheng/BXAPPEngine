@@ -1,0 +1,305 @@
+{
+    "base": {
+        "dataSource": [
+            {
+                "xdid": "xd.feed.menu",
+                "url": "https://xudusheng-a.akamaihd.net/nlmobile/xudusheng/config/xudushenggp/2017/menu_ios_r2.json"
+            },
+            {
+                "xdid": "xd.feed.localization",
+                "url": "http://129.204.47.207/files/localizable_en.string"
+            },
+            {
+                "xdid": "xd.feed.search.config",
+                "url": "https://xudusheng-a.akamaihd.net/nlmobile/xudusheng/config/xudushenggp/2017/search.json"
+            },
+            {
+                "xdid": "xd.feed.search.url",
+                "url": "https://xudushengsmbsolr-a.akamaihd.net/solr/xudushengplayv6/select?fl=*&q=${query}&start=${start}",
+                "params": {
+                    "oldToNew": "&sort=GameDate+asc,GameId+asc,PlayID+asc"
+                }
+            },
+            {
+                "xdid": "xd.feed.schedule.weeks",
+                "url": "https://xudusheng-a.akamaihd.net/nlmobile/xudusheng/config/xudushenggp/2017/weeks.json"
+            },
+            {
+                "xdid": "xd.feed.pc.config",
+                "url": "https://gamepass.xudusheng.com/service/config?format=json&cameras=true"
+            },
+            {
+                "xdid": "xd.feed.teams",
+                "url": "https://xudusheng-a.akamaihd.net/nlmobile/xudusheng/config/xudushenggp/2017/teams.json"
+            },
+            {
+                "xdid": "xd.image.team.logo",
+                "url": "https://xudusheng-a.akamaihd.net/nlmobile/xudusheng/config/xudushenggp/2017/teamlogo/${imgSize}/${teamCode}.png",
+                "params": {
+                    "bImg": "112",
+                    "sImg": "64"
+                }
+            },
+            {
+                "xdid": "xd.image.team.stadium",
+                "url": "https://xudusheng-a.akamaihd.net/nlmobile/xudusheng/config/xudushenggp/2017/stadium/${imgSize}/${teamCode}.jpg",
+                "enabled": false,
+                "params": {
+                    "sImg": "es",
+                    "lImg": "el"
+                }
+            },
+            {
+                "xdid": "xd.feed.game.live.scoreboard",
+                "url": "https://xudushengsmbnyc-a.akamaihd.net/fs/xudusheng/xudusheng/stats/scores/${season}/${gameType}_${week}.xml?t=${timestamp}"
+            },
+            {
+                "xdid": "xd.feed.game.scoreSummary",
+                "url": "https://xudushengsmbnyc-a.akamaihd.net/fs/xudusheng/xudusheng/pbp/${season}/${gameId}_scoreSummary.xml?t=${timestamp}"
+            },
+            {
+                "xdid": "xd.feed.game.statistics",
+                "url": "https://xudushengsmbnyc-a.akamaihd.net/fs/xudusheng/xudusheng/pbp/${season}/${gameId}_statistics.xml?t=${timestamp}"
+            },
+            {
+                "xdid": "xd.feed.game.boxscore",
+                "url": "https://xudushengsmbnyc-a.akamaihd.net/fs/xudusheng/xudusheng/stats/boxscores/${season}/${gameId}.xml?t=${timestamp}"
+            },
+            {
+                "xdid": "xd.feed.game.edl.live",
+                "url": "https://xudushengsmbnyc-a.akamaihd.net/fs/xudusheng/xudusheng/stats/boxscores/${season}/${gameId}.xml?t=${timestamp}"
+            },
+            {
+                "xdid": "xd.feed.game.edl.archive",
+                "url": "https://xudushengsmbnyc-a.akamaihd.net/fs/xudusheng/xudusheng/pbp/${season}/${gameId}.xml?t=${timestamp}"
+            },
+            {
+                "xdid": "xd.feed.channel.epg",
+                "url": "https://xudushengsmbnyc-a.akamaihd.net/u/xudusheng/xudusheng/epg/xudushengnetwork/${yyyy}/${mm}/${dd}.json?t=${timestamp}",
+                "params": {
+                    "preToday": 1,
+                    "nextToday": 1,
+                    "dvrSupport": 24
+                }
+            },
+            {
+                "xdid": "xd.image.path.program",
+                "url": "https://xudushengsmbnyc-a.akamaihd.net/u/xudusheng/xudusheng/thumbs/${imgName}${deviceType}${imgSize}.${imgSuffix}",
+                "params": {
+                    "sImg": "_es",
+                    "bImg": "_es",
+                    "lImg": "_el",
+                    "pImg": "_ep",
+                    "xImg": "_ex",
+                    "bgImg": "_bg",
+                    "deviceType": "_${deviceName}",
+                    "regex": "(_es.jpg)|(_es.JPG)|(_es.png)|(_es.PNG)",
+                    "_deviceName": "iphone|ipad|android|androidtab"
+                }
+            },
+            {
+                "xdid": "xd.image.path.epg",
+                "url": "https://xudushengsmbnyc-a.akamaihd.net/u/xudusheng/xudusheng/thumbs/epg/${imgName}${deviceType}.${imgSuffix}",
+                "params": {
+                    "deviceType": "_${deviceName}",
+                    "regex": "(.png)|(.PNG)",
+                    "_deviceName": "iphone|ipad|android|androidtab"
+                }
+            },
+            {
+                "xdid": "xd.image.path.category",
+                "url": "https://xudushengsmbnyc-a.akamaihd.net/u/xudusheng/xudusheng/thumbs/categories/${cid}${deviceType}${imgSize}.jpg",
+                "params": {
+                    "sImg": "_es",
+                    "bImg": "_es",
+                    "lImg": "_el",
+                    "bgImg": "_bg",
+                    "bbImg": "_bb",
+                    "fbImg": "_fb",
+                    "flImg": "_fl",
+                    "frImg": "_fr",
+                    "deviceType": "_${deviceName}",
+                    "regex": "(_es.jpg)|(_es.JPG)|(_es.png)|(_es.PNG)",
+                    "_deviceName": "iphone|ipad|android|androidtab"
+                }
+            },
+        ],
+        "services": [
+            {
+                "xdid": "xd.service.app",
+                "url": "https://gamepass.xudusheng.com"
+            },
+            {
+                "xdid": "xd.service.app.api",
+                "url": "https://xudushengapi.xudusheng.com/api_xudusheng/v1"
+            },
+            {
+                "xdid": "xd.service.app.pcm",
+                "url": "https://xudushengpcm.xudusheng.com/v1"
+            },
+            {
+                "xdid": "xd.service.webview.pacakges",
+                "url": "${appServer}/packages?webview=true"
+            },
+            {
+                "xdid": "xd.service.webview.forgotpassword",
+                "url": "https://www.xudusheng.com/forgot-password"
+            },
+            {
+                "xdid": "xd.service.webview.register",
+                "url": "${appServer}/xxxx"
+            },
+            {
+                "xdid": "xd.app.rating",
+                "enabled": false,
+                "params": {
+                    "rateNewVersion": true,
+                    "daysUsed": 7,
+                    "appOpens": 10,
+                    "remindDaysUsed": 1,
+                    "videoStarts": 5,
+                    "videoMinutesWatched": 5,
+                    "title": "Rate Our App",
+                    "message": "If you enjoy using xudusheng app, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!",
+                    "cancelBtn": "No, Thanks",
+                    "rateBtn": "Rate It Now",
+                    "remindBtn": "Remind Me Later",
+                    "customEvents": {
+                        "customEvents1": 0,
+                        "customEvents2": 0,
+                        "customEvents3": 0
+                    }
+                }
+            },
+            {
+                "xdid": "xd.service.interval",
+                "params": {
+                    "default": 300,
+                    "accessToken": 5400,
+                    "games": 60,
+                    "gameDetail": 300,
+                    "config": 28800,
+                    "sessionPoll": 300,
+                    "epg": 60,
+                    "redzone": 60,
+                    "timestamp": 10,
+                    "pcmOffset": 50
+                }
+            }
+        ],
+        "appParams": [
+            {
+                "xdid": "xd.app.greeting",
+                "enabled": true,
+                "params": {
+                    "title": "xudusheng Game Pass",
+                    "message": "This app has a required update.  Please download the latest version from the App Store.",
+                    "forceUpgrade": false,
+                    "upgradeUrl": ""
+                }
+            },
+            {
+                "xdid": "xd.app.settings",
+                "params": {
+                    "debugLog": true,
+                    "timeZone": "America/New_York",
+                    "timeZone_format": "America/New_York",
+                    "timezone_suffix": "ET",
+                    "networkCatSeoName": "xudushengnetwork",
+                    "redZoneSeoName": "xudushengredzone",
+                    "networkChannelId": "1",
+                    "appServer": "https://gamepass.xudusheng.com",
+                    "hideSubscribeCountries": "CN"
+                }
+            },
+            {
+                "xdid": "xd.app.info",
+                "params": {
+                    "url": "http://www.xudusheng.com",
+                    "advInfo": "true",
+                    "email": {
+                        "to": "xudushengmobilesupport@xudusheng.com",
+                        "subject": "xudusheng Game Pass Feedback",
+                        "enable": "true"
+                    }
+                }
+            },
+            {
+                "xdid": "xd.app.share",
+                "params": {
+                    "subject": "${title}",
+                    "program": "<html><body>Go check this xudusheng GamePass video! ${title} <a href=\"https://gamepass.xudusheng.com/video/${seoName}\">https://gamepass.xudusheng.com/video/${seoName}</a></body></html>"
+                }
+            }
+        ]
+    },
+    "locale": {
+        "country": {},
+        "language": {
+            "en": [
+                {
+                    "xdid": "xd.feed.localization",
+                    "url": "http://129.204.47.207/files/localizable_en.string",
+                    "params": {
+                        "primaryName": "English",
+                        "secondaryName": "English",
+                        "order": 1,
+                        "languageKey": "en"
+                    }
+                }
+            ],
+            "zh": [
+                {
+                    "xdid": "xd.feed.localization",
+                    "url": "http://129.204.47.207/files/localizable_zh.string",
+                    "params": {
+                        "primaryName": "Simplified Chinese",
+                        "secondaryName": "简体中文",
+                        "order": 2,
+                        "languageKey": "zh_sim"
+                    }
+                },
+                {
+                    "xdid": "xd.feed.localization",
+                    "url": "http://129.204.47.207/files/localizable_zh.string",
+                    "params": {
+                        "primaryName": "Traditional Chinese",
+                        "secondaryName": "繁体中文",
+                        "order": 2,
+                        "languageKey": "zh_tra",
+                        "enabled": true
+                    }
+                }
+            ],
+            "kor": [
+                {
+                    "xdid": "xd.feed.localization",
+                    "url": "http://129.204.47.207/files/localizable_kor.string",
+                    "params": {
+                        "primaryName": "Korean",
+                        "secondaryName": "한국어",
+                        "order": 3,
+                        "languageKey": "kor"
+                    }
+                }
+            ]
+        },
+        "platforms": {}
+    },
+    "redirect": {
+        "devices": [
+            {
+                "url": "http://nlmobile.cdnak.xudusheng.com/xudusheng/config/2013/config_ios_r8_v2.xml",
+                "deviceId": {
+                    "xudusheng.alan.iphone4s": "C39GWV2DDTFC"
+                }
+            },
+            {
+                "url": "http://10.10.31.68/testing/xudusheng_ios_2012_r3_v2.xml",
+                "deviceId": {
+                    "xudusheng.jay.iphone5s": "12345678"
+                }
+            }
+        ]
+    }
+}

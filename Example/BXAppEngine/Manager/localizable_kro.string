@@ -1,0 +1,25 @@
+##Version 7.0727
+
+#Network
+bx.message.offline = 네트워크 연결이 끊겼으니 네트워크 점검 ~
+
+#update
+bx.update.content.force = 새 버전 발견
+bx.update.content = 새 버전 발견!업그레이드 여부?
+bx.update.title = 새 버전 힌트
+bx.update.update = 즉시 업데이트
+bx.update.cancel = 이따가 얘기하자.
+bx.ui.quitapp = 물러나다
+
+//UI
+bx.ui.cancel = 취소
+bx.ui.ok = 확정
+bx.ui.alert.title = 힌트
+bx.ui.web.controller.close = 닫다
+bx.ui.nofunction = 기능 업그레이드 중...
+bx.ui.reconnect.title = 네트워크 이상
+bx.ui.reconnect = 재시도 누르기
+
+
+bx.home.localization.demo.title = 언어 전환
+

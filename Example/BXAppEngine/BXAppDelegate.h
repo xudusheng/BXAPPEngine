@@ -7,9 +7,7 @@
 //
 
 @import UIKit;
-
-@interface BXAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+#import "BXBaseAppDelegate.h"
+@interface BXAppDelegate : BXBaseAppDelegate
 
 @end

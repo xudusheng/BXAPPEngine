@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BXAConfigManager</key>
+	<array>
+		<string>BXConfigManager</string>
+	</array>
+	<key>BXADeepLinkManager</key>
+	<array>
+		<string>BXDeepLinkManager</string>
+	</array>
+	<key>BXAStarupManager</key>
+	<array>
+		<string>BXStarupManager</string>
+	</array>
+	<key>BXASettingsManager</key>
+	<array>
+		<string>BXSettingsManager</string>
+	</array>
+</dict>
+</plist>
