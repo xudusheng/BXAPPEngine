@@ -31,13 +31,13 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     
     s.source_files = 'BXAppEngine/Classes/**/*'
-    s.dependency 'BXToolKit'
     
     s.subspec 'TaskQueue' do |task|
         task.source_files = 'BXAppEngine/Classes/TaskQueue/**/*'
     end
 
     s.subspec 'Managers' do |task|
+        task.dependency 'BXAppEngine/TaskQueue'
         task.source_files = 'BXAppEngine/Classes/Managers/**/*'
         task.subspec 'BXParser' do |parser|
             parser.source_files = 'BXAppEngine/Classes/Managers/BXParser/**/*'
@@ -53,5 +53,6 @@ Pod::Spec.new do |s|
     
     # 集成微信(精简版0.2M)
     s.dependency 'RegexKitLite', '4.0'
+    s.dependency 'BXToolKit'
 
 end

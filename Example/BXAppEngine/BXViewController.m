@@ -60,7 +60,7 @@
     [self.pageStateHelper.requestPageView setPromptImage:@"img-error" forState:BXRequestPageState_NoData];
 }
 - (void)hideHUD {
-    self.pageStateHelper.state = BXRequestPageState_NoData;
+    self.pageStateHelper.state = BXRequestPageState_NULL;
 }
 - (IBAction)showHUD:(id)sender {
     self.pageStateHelper.state = BXRequestPageState_Loading;
